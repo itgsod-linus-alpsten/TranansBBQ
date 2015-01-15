@@ -19,13 +19,19 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #menu {
     background-color: green;
     width: 100%;
     height: 74px;
+}
+
+#hem_knapp:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
 }
 
 #meny_val {
@@ -39,6 +45,10 @@ a:hover {
     width: 274px;
 }
 
+#meny_saker:hover {
+    background-color: white;
+}
+
 #hem_knapp {
     float: left;
     width: 72px;
@@ -47,6 +57,7 @@ a:hover {
     border-top: solid;
     border-left: solid;
     border-width: 2px;
+    color: black;
 }
 
 img {
