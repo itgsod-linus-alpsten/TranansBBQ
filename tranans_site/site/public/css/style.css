@@ -86,3 +86,11 @@ img {
     border-top: solid;
     border-width: 2px;
 }
+
+#boka_knapp h2 {
+    height: 28px;
+    width: 120px;
+    margin-top: 32px;
+    margin-right: auto;
+    margin-left: auto;
+}
