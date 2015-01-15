@@ -105,3 +105,29 @@ img {
     margin-right: auto;
     margin-left: auto;
 }
+
+#boka_knapp:hover {
+    background-color: #ffA540;
+}
+
+#boka_bord_lank {
+    float: left;
+    width: 200px;
+    height: 80px;
+    background-color: purple;
+    margin-left: 37px;
+    margin-top: 30px;
+    border: solid;
+    border-width: 2px;
+}
+
+#boka_bord_lank h2 {
+    width: 96px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#boka_bord_lank:hover {
+    background-color: #800faf;
+}
