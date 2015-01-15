@@ -12,6 +12,16 @@
     height: 150px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 #menu {
     background-color: green;
     width: 100%;
@@ -41,4 +51,46 @@
 
 img {
     float: left;
+}
+
+#resturang_info {
+    height: 774px;
+    width: 274px;
+    border: solid;
+    border-top: none;
+    border-width: 2px;
+    float: right;
+}
+
+#info {
+    background-color: red;
+    float: left;
+    margin-left: 50px;
+}
+
+#info h3 {
+    margin-top: 30px;
+}
+
+#info p {
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+#boka_knapp {
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    float: right;
+    margin-top: 387px;
+    border-top: solid;
+    border-width: 2px;
+}
+
+#boka_knapp h2 {
+    height: 28px;
+    width: 120px;
+    margin-top: 32px;
+    margin-right: auto;
+    margin-left: auto;
 }
