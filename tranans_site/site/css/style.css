@@ -38,6 +38,7 @@ a:hover {
     float: left;
     width: 825px;
     background-color: black;
+    height: 74px;
 }
 
 #meny_saker {
@@ -93,7 +94,7 @@ img {
     height: 100px;
     background-color: orange;
     float: right;
-    margin-top: 387px;
+    margin-top: 402px;
     border-top: solid;
     border-width: 2px;
 }
@@ -130,4 +131,43 @@ img {
 
 #boka_bord_lank:hover {
     background-color: #800faf;
+}
+
+#start_sida_saker table {
+    width: 826px;
+    height: 776px;
+    background: black;
+    float: right;
+    border-color: yellow;
+    border-width: 2px;
+
+}
+
+#start_sida_saker td {
+    width: 274px;
+    background: yellow;
+}
+
+#boknings_alternativ {
+    float: left;
+    width: 620px;
+    height: 100px;
+    border-bottom: solid;
+    border-left: solid;
+    border-width: 2px;
+}
+
+#bord_overview {
+    float: left;
+    height: 672px;
+    width: 619px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-left: solid;
+}
+
+#boknings_alternativ table {
+    margin-top: 27px;
+    margin-left: 32px;
+    width: 95%;
 }
