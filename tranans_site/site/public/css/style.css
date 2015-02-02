@@ -138,14 +138,23 @@ img {
     height: 776px;
     background: black;
     float: right;
-    border-color: yellow;
-    border-width: 2px;
-
 }
+
 
 #start_sida_saker td {
     width: 274px;
     background: yellow;
+}
+
+#start_sida_saker tr {
+    height: 254px;
+}
+
+#start_sida_text {
+    margin-top: 10px;
+    height: 244px;
+    width: 269px;
+    float: left;
 }
 
 #boknings_alternativ {
@@ -170,4 +179,26 @@ img {
     margin-top: 27px;
     margin-left: 32px;
     width: 95%;
+}
+
+#about_info_rutor {
+    width: 548px;
+    float: right;
+}
+
+#about_info_rutor table{
+    width: 544px;
+    height: 776px;
+    background: black;
+    float: right;
+}
+
+#about_info_rutor td {
+    width: 268px;
+    background: yellow;
+}
+
+#about_info_rutor tr {
+    height: 254px;
+    width: 548px;
 }
