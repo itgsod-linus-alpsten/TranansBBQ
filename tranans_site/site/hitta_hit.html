@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <style type="text/css">
+        html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+    </style>
+    <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA39VyKJR9eMlVAeIApQtL6mXVV-KZgUQY">
+    </script>
+    <script type="text/javascript">
+        function initialize() {
+            var mapOptions = {
+                center: { lat: 40.68966, lng: -74.045175},
+                zoom: 17
+            };
+            var map = new google.maps.Map(document.getElementById('map-canvas'),
+                    mapOptions);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <meta charset="UTF-8">
+    <title>Tranan BBQ</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+<div id="site">
+    <div id="logo_title">
+        <img src="img/logo_transparent_background.png" alt=""/>
+        <img src="img/tranan_bbq_title.png" alt=""/>
+    </div>
+    <div id="menu">
+        <a id="hem_knapp_länk" href="home.html">
+            <img id="hem_knapp" src="img/hem_knapp.png" alt=""/>
+        </a>
+        <table id="meny_val">
+            <tr>
+                <td id="meny_saker">
+                    <a href="boka_bord.html"><h2>Boka här</h2></a>
+                </td>
+                <td id="meny_saker">
+                    <a href="hitta_hit.html"><h2>Hitta hit</h2></a>
+                </td>
+                <td id="meny_saker">
+                    <a href="about.html"><h2>Mer info</h2></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="container">
+        <div id="map-canvas"></div>
+    </div>
+    <div id="contentinfo">
+
+    </div>
+</div>
+</body>
+</html>
