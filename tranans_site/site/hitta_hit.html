@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <style type="text/css">
-        html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+        #map-canvas { height: 774px; margin: 0; padding: 0; border-bottom: solid; border-left: solid; border-width: 2px;}
     </style>
     <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA39VyKJR9eMlVAeIApQtL6mXVV-KZgUQY">
@@ -11,7 +11,7 @@
         function initialize() {
             var mapOptions = {
                 center: { lat: 40.68966, lng: -74.045175},
-                zoom: 17
+                zoom: 16
             };
             var map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
@@ -35,18 +35,33 @@
         <table id="meny_val">
             <tr>
                 <td id="meny_saker">
-                    <a href="boka_bord.html"><h2>Boka här</h2></a>
+                    <a href="public/boka_bord.html"><h2>Boka här</h2></a>
                 </td>
                 <td id="meny_saker">
                     <a href="hitta_hit.html"><h2>Hitta hit</h2></a>
                 </td>
                 <td id="meny_saker">
-                    <a href="about.html"><h2>Mer info</h2></a>
+                    <a href="public/about.html"><h2>Mer info</h2></a>
                 </td>
             </tr>
         </table>
     </div>
     <div id="container">
+        <div id="resturang_info">
+            <div id="info">
+                <h3>Adress:</h3>
+                <p>Trananvägen 42</p>
+                <h3>Tele. nr:</h3>
+                <p>070 421 236 892</p>
+                <h3>E-mail:</h3>
+                <p>tranan@bbq.com</p>
+            </div>
+            <a href="boka_bord.html">
+                <div id="boka_bord_lank">
+                    <h2>Boka här</h2>
+                </div>
+            </a>
+        </div>
         <div id="map-canvas"></div>
     </div>
     <div id="contentinfo">
